@@ -22,22 +22,23 @@ yarn add nodecloud
 
 - Amazon web services (AWS)
 - Google cloud platform (GCP)
+- Microsoft Azure (Azure)
 
 ## Service Types
 
-| Service Category | Service | AWS | GCP |
-| --- | --- | --- | --- |
-| Compute | IaaS | EC2 | Compute Engine |
-|         | Containers | ECS | - |
-| Storage | Object Storage | S3 | Cloud Storage |
-|         | Block Storage  | EBS | Persistent Disks |
-| Networking | Load Balancer | ELB | - |
-|            | Peering | Direct Connect | - |
-|            | DNS | Route53 | Google DNS |
-| Databases | RDBMS | RDS | - |
-|           | NoSQL: key-value | DynamoDB | Cloud Datastore |
-|           | NoSQL: indexed | - | Cloud Datastore |
-| Security/ Authorization  | IAM | AWS IAM | - |
+| Service Category | Service | AWS | GCP | Azure |
+| --- | --- | --- | --- | --- |
+| Compute | IaaS | EC2 | Compute Engine |           |
+|         | Containers | ECS | - |          |
+| Storage | Object Storage | S3 | Cloud Storage |           |
+|         | Block Storage  | EBS | Persistent Disks |           |
+| Networking | Load Balancer | ELB | - |            |
+|            | Peering | Direct Connect | - |           |
+|            | DNS | Route53 | Google DNS |             |
+| Databases | RDBMS | RDS | - |             |
+|           | NoSQL: key-value | DynamoDB | Cloud Datastore |               |
+|           | NoSQL: indexed | - | Cloud Datastore |            |
+| Security/ Authorization  | IAM | AWS IAM | - |            |
 
 ## Usage
 
